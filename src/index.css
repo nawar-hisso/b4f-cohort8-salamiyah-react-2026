@@ -282,3 +282,48 @@ body {
 .add-task-button:hover {
   background-color: #2f5cd6;
 }
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.task-action-button {
+  background-color: #ffffff;
+  border: 1px solid #e2e5ea;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 6px 10px;
+}
+
+.task-action-button:hover {
+  border-color: #3b6ef5;
+}
+
+.delete-button {
+  border-color: #f0d7d3;
+  color: #c0392b;
+}
+
+.delete-button:hover {
+  border-color: #c0392b;
+}
+
+.save-button {
+  background-color: #3b6ef5;
+  border-color: #3b6ef5;
+  color: #ffffff;
+}
+
+.save-button:hover {
+  background-color: #2f5cd6;
+}
+
+.edit-title-input {
+  border: 1px solid #3b6ef5;
+  border-radius: 6px;
+  flex: 1;
+  font-size: 14px;
+  padding: 6px 10px;
+}
