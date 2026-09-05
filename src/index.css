@@ -239,3 +239,46 @@ body {
     flex-wrap: wrap;
   }
 }
+
+.add-task-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.add-task-input {
+  flex: 1;
+  min-width: 180px;
+  border: 1px solid #e2e5ea;
+  border-radius: 8px;
+  font-size: 15px;
+  padding: 10px 14px;
+}
+
+.add-task-input:focus {
+  border-color: #3b6ef5;
+  outline: none;
+}
+
+.add-task-select {
+  background-color: #ffffff;
+  border: 1px solid #e2e5ea;
+  border-radius: 8px;
+  font-size: 15px;
+  padding: 10px 14px;
+}
+
+.add-task-button {
+  background-color: #3b6ef5;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px 18px;
+}
+
+.add-task-button:hover {
+  background-color: #2f5cd6;
+}
