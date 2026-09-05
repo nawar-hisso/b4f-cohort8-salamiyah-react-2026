@@ -327,3 +327,9 @@ body {
   font-size: 14px;
   padding: 6px 10px;
 }
+.form-error {
+  color: #c0392b;
+  font-size: 13px;
+  margin-top: 8px;
+  width: 100%;
+}
